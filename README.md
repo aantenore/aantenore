@@ -2,7 +2,7 @@
 
 **AI Engineer · Software Architect · Open-source builder**
 
-[LinkedIn](https://www.linkedin.com/in/antonio-antenore-a9b44a107/) · Turin, Italy · Open source from Turin
+[LinkedIn](https://www.linkedin.com/in/antonio-antenore-a9b44a107/) · Turin, Italy
 
 I design and build modular, configuration-driven systems across **agentic AI**, **modern data platforms**, and **cloud-native software architecture**. My background spans full-stack development, microservices, distributed systems, data engineering, and applied AI.
 
