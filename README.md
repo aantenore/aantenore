@@ -14,41 +14,26 @@ My projects explore each part of that journey as an independent, replaceable bui
 
 ## Selected work
 
-### [AgenticStrata](https://github.com/aantenore/AgenticStrata) — prove what an AI system actually did
+| Project | Real-world impact | Maturity |
+| --- | --- | --- |
+| [AgenticStrata](https://github.com/aantenore/AgenticStrata) | Makes an AI action reconstructable: what was requested, what was allowed, what changed, and which evidence supports it. | Alpha reference architecture, not a regulatory certification. |
+| [myMoE](https://github.com/aantenore/myMoE) | Uses replaceable local models first and considers premium intelligence only when policy, evidence, privacy, and budget allow it. | Alpha workstation control plane with results bounded to documented evaluations. |
+| [StageFabric](https://github.com/aantenore/stagefabric) | Plans each AI step across browser, local, edge, or cloud locations while blocking forbidden data movement. | Experimental alpha planner, not a globally optimal scheduler. |
+| [PauseMesh](https://github.com/aantenore/pausemesh) | Lets a long-running assistant survive approval waits, disconnects, restarts, and duplicate callbacks without continuing twice. | Alpha runtime; external effects still need the documented idempotency contract. |
+| [TabLoom](https://github.com/aantenore/tabloom) | Lets browser tabs share one on-device AI runtime instead of loading a separate model in every tab. | Alpha library; the real WebLLM path is verified on Chrome/WebGPU only. |
+| [SemWitness](https://github.com/aantenore/semwitness) | Measures token-saving transformations while preserving protected instructions, code, schemas, and reproducible evidence. | Experimental alpha; it does not prove natural-language equivalence or authorize cache hits. |
 
-It gives teams a reference architecture for AI agents whose actions must be understandable after the fact. Its contracts, evidence receipts, replay, plain-language explanations, and conformance checks help answer: *What was requested? Who or what was allowed to act? What happened? What evidence supports the result?*
+## Active experiments
 
-**Maturity:** alpha reference implementation. It checks declared rules against supplied evidence; it is not a regulatory certification.
+- [LocusMesh](https://github.com/aantenore/LocusMesh) checks whether a distributed AI route stays within an operator-approved boundary. It is experimental alpha and does not yet prove that a peer performed the claimed computation.
+- [IntentABI](https://github.com/aantenore/intentabi) measures whether differently worded requests can converge on the same typed intent before anyone enables semantic caching. It is alpha, shadow-only, and never serves a cached answer.
+- [WITShift](https://github.com/aantenore/witshift) turns a narrow TypeScript MCP tool into a reviewable WebAssembly Component candidate and compares its behavior with the original. It is alpha and intentionally rejects tools outside its bounded source subset.
+- [Semantic Junkyard](https://github.com/aantenore/semantic-junkyard) connects knowledge in files, databases, and Git while keeping the original sources authoritative. It is a local-first reference product, not a production multi-tenant platform.
 
-### [myMoE](https://github.com/aantenore/myMoE) — use the right amount of intelligence for each task
+## Working product experiments
 
-It routes work among replaceable local models, keeps chat and memory local by default, applies explicit budgets and fallbacks, and can prepare a minimal handoff to a premium assistant only when policy and evidence justify it. The aim is to avoid paying the highest cost—or exposing data—for every request.
-
-**Maturity:** alpha local control plane. Results are supported for its documented profiles and evaluations, not claimed as a universal win over every single-model setup.
-
-### [StageFabric](https://github.com/aantenore/stagefabric) — keep each AI step in the right place
-
-It turns a multi-step AI task into an explainable plan across the browser, a local machine, the edge, or the cloud. Privacy rules can block forbidden data movement, fallbacks explain why another location was chosen, and content-free records show where successful work ran without copying the underlying data.
-
-**Maturity:** experimental alpha with a deterministic planner and optional real-runtime execution. It is a reference planner, not a globally optimal scheduler.
-
-### [PauseMesh](https://github.com/aantenore/pausemesh) — let an AI task pause safely and continue once
-
-It gives long-running agents a durable place to stop for a person, another system, or a later event. After a disconnect, restart, duplicate callback, or retry, the same continuation can be claimed and resumed exactly once instead of repeating a payment, message, or other side effect. Its adapters keep MCP, A2A, and AG-UI at the boundary so the core workflow is not tied to one agent protocol.
-
-**Maturity:** alpha durable-execution runtime with SQLite and PostgreSQL stores, protocol adapters, and multi-replica integration tests. It does not make an arbitrary external side effect exactly-once unless that effect also follows the documented idempotency contract.
-
-### [TabLoom](https://github.com/aantenore/tabloom) — let browser tabs share one on-device AI runtime
-
-Instead of every tab loading another copy of the same model, TabLoom coordinates one active owner. It manages queues, streaming, cancellation, safe takeover, and compatibility checks so sibling pages can share scarce device memory without becoming tied to one inference provider.
-
-**Maturity:** alpha library. Its real WebLLM path is verified on Chrome with WebGPU, not across every browser, GPU, or model.
-
-### [SemWitness](https://github.com/aantenore/semwitness) — reduce AI token waste without blindly trusting compression
-
-It lets teams test a smaller representation of repeated AI context before trusting it. It preserves the original, checks that protected instructions, code, schemas, and data survive exactly, measures the real token saving after overhead, and leaves reproducible evidence of every check.
-
-**Maturity:** experimental alpha verification layer. It does not claim to prove natural-language meaning, automatically enable compression, or authorize semantic-cache hits.
+- [MoveBeta](https://github.com/aantenore/movebeta-mobile) helps indoor climbers review one measurable movement signal on-device and compare a focused repeat without uploading video. The PWA is a private beta; its pose signals are not coaching or medical advice.
+- [FreeJoy](https://github.com/aantenore/FreeJoy) turns phones into up to four Windows game controllers through one QR code. It is a working local-network prototype, not a broadly benchmarked or packaged consumer release.
 
 ## Engineering principles
 
