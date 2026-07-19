@@ -16,7 +16,7 @@ My projects explore each part of that journey as an independent, replaceable bui
 
 | Project | Real-world impact | Maturity |
 | --- | --- | --- |
-| [myMoE](https://github.com/aantenore/myMoE) | Uses replaceable local models first and considers premium intelligence only when policy, evidence, privacy, and budget allow it. | Alpha workstation control plane with results bounded to documented evaluations. |
+| [myMoE](https://github.com/aantenore/myMoE) | Tests the normal AI route against an option that uses fewer paid-model calls, then keeps the normal route unless separate checks and a human-approved trial allow the alternative. | Alpha and installable. Missing or invalid evidence always keeps the normal route; no real paired test has yet demonstrated savings, so no live trial has been approved. |
 | [SemWitness](https://github.com/aantenore/semwitness) | Measures token-saving transformations while preserving protected instructions, code, schemas, and reproducible evidence. | Experimental alpha; it does not prove natural-language equivalence or authorize cache hits. |
 | [TabLoom](https://github.com/aantenore/tabloom) | Lets browser tabs share one on-device AI runtime instead of loading a separate model in every tab. | Alpha library; the real WebLLM path is verified on Chrome/WebGPU only. |
 | [PauseMesh](https://github.com/aantenore/pausemesh) | Lets a long-running assistant survive approval waits, disconnects, restarts, and duplicate callbacks without continuing twice. | Alpha runtime; external effects still need the documented idempotency contract. |
