@@ -8,7 +8,7 @@
 
 ## A simple way to see my work
 
-Imagine a team building an assistant for sensitive documents. It should keep private work on the right device, choose an expensive model only when a smaller local one is not enough, avoid loading the same model in every browser tab, and leave a readable record of what it decided and changed.
+Imagine a team building an assistant for sensitive documents. It should keep private work on the right device, choose an expensive model only when a smaller local one is not enough, survive an approval or restart without doing the same work twice, avoid loading the same model in every browser tab, and leave a readable record of what it decided and changed.
 
 My projects explore each part of that journey as an independent, replaceable building block. They can be used separately: the goal is not one closed platform, but practical foundations that let teams change models, providers, policies, and infrastructure without rebuilding everything.
 
@@ -32,6 +32,12 @@ It turns a multi-step AI task into an explainable plan across the browser, a loc
 
 **Maturity:** experimental alpha with a deterministic planner and optional real-runtime execution. It is a reference planner, not a globally optimal scheduler.
 
+### [PauseMesh](https://github.com/aantenore/pausemesh) — let an AI task pause safely and continue once
+
+It gives long-running agents a durable place to stop for a person, another system, or a later event. After a disconnect, restart, duplicate callback, or retry, the same continuation can be claimed and resumed exactly once instead of repeating a payment, message, or other side effect. Its adapters keep MCP, A2A, and AG-UI at the boundary so the core workflow is not tied to one agent protocol.
+
+**Maturity:** alpha durable-execution runtime with SQLite and PostgreSQL stores, protocol adapters, and multi-replica integration tests. It does not make an arbitrary external side effect exactly-once unless that effect also follows the documented idempotency contract.
+
 ### [TabLoom](https://github.com/aantenore/tabloom) — let browser tabs share one on-device AI runtime
 
 Instead of every tab loading another copy of the same model, TabLoom coordinates one active owner. It manages queues, streaming, cancellation, safe takeover, and compatibility checks so sibling pages can share scarce device memory without becoming tied to one inference provider.
@@ -43,12 +49,6 @@ Instead of every tab loading another copy of the same model, TabLoom coordinates
 It lets teams test a smaller representation of repeated AI context before trusting it. It preserves the original, checks that protected instructions, code, schemas, and data survive exactly, measures the real token saving after overhead, and leaves reproducible evidence of every check.
 
 **Maturity:** experimental alpha verification layer. It does not claim to prove natural-language meaning, automatically enable compression, or authorize semantic-cache hits.
-
-### [MoveBeta](https://github.com/aantenore/movebeta-mobile) — private movement feedback for indoor climbers
-
-It analyzes a short bouldering video on the device, points to one measurable movement to review, and helps the climber compare a focused repeat of the same climb. The video is not sent to a remote inference service, and the user can challenge, export, or delete the derived feedback.
-
-**Maturity:** functional private beta based on 2D pose signals. It is not a coach or medical tool, and public store release still depends on real-device and human validation.
 
 ## Engineering principles
 
