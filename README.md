@@ -16,11 +16,11 @@ My projects explore each part of that journey as an independent, replaceable bui
 
 | Project | Real-world impact | Maturity |
 | --- | --- | --- |
-| [AgenticStrata](https://github.com/aantenore/AgenticStrata) | Makes an AI action reconstructable: what was requested, what was allowed, what changed, and which evidence supports it. | Alpha reference architecture, not a regulatory certification. |
 | [myMoE](https://github.com/aantenore/myMoE) | Uses replaceable local models first and considers premium intelligence only when policy, evidence, privacy, and budget allow it. | Alpha workstation control plane with results bounded to documented evaluations. |
+| [TabLoom](https://github.com/aantenore/tabloom) | Lets browser tabs share one on-device AI runtime instead of loading a separate model in every tab. | Alpha library; the real WebLLM path is verified on Chrome/WebGPU only. |
+| [AgenticStrata](https://github.com/aantenore/AgenticStrata) | Makes an AI action reconstructable: what was requested, what was allowed, what changed, and which evidence supports it. | Alpha reference architecture, not a regulatory certification. |
 | [StageFabric](https://github.com/aantenore/stagefabric) | Plans each AI step across browser, local, edge, or cloud locations while blocking forbidden data movement. | Experimental alpha planner, not a globally optimal scheduler. |
 | [PauseMesh](https://github.com/aantenore/pausemesh) | Lets a long-running assistant survive approval waits, disconnects, restarts, and duplicate callbacks without continuing twice. | Alpha runtime; external effects still need the documented idempotency contract. |
-| [TabLoom](https://github.com/aantenore/tabloom) | Lets browser tabs share one on-device AI runtime instead of loading a separate model in every tab. | Alpha library; the real WebLLM path is verified on Chrome/WebGPU only. |
 | [SemWitness](https://github.com/aantenore/semwitness) | Measures token-saving transformations while preserving protected instructions, code, schemas, and reproducible evidence. | Experimental alpha; it does not prove natural-language equivalence or authorize cache hits. |
 
 ## Active experiments
