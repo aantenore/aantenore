@@ -20,17 +20,17 @@ It gives teams a reference architecture for AI agents whose actions must be unde
 
 **Maturity:** alpha reference implementation. It checks declared rules against supplied evidence; it is not a regulatory certification.
 
-### [StageFabric](https://github.com/aantenore/stagefabric) — keep each AI step in the right place
-
-It turns a multi-step AI task into an explainable plan across the browser, a local machine, the edge, or the cloud. Privacy rules can block forbidden data movement, fallbacks explain why another location was chosen, and content-free records show where successful work ran without copying the underlying data.
-
-**Maturity:** experimental alpha with a deterministic planner and optional real-runtime execution. It is a reference planner, not a globally optimal scheduler.
-
 ### [myMoE](https://github.com/aantenore/myMoE) — use the right amount of intelligence for each task
 
 It routes work among replaceable local models, keeps chat and memory local by default, applies explicit budgets and fallbacks, and can prepare a minimal handoff to a premium assistant only when policy and evidence justify it. The aim is to avoid paying the highest cost—or exposing data—for every request.
 
 **Maturity:** alpha local control plane. Results are supported for its documented profiles and evaluations, not claimed as a universal win over every single-model setup.
+
+### [StageFabric](https://github.com/aantenore/stagefabric) — keep each AI step in the right place
+
+It turns a multi-step AI task into an explainable plan across the browser, a local machine, the edge, or the cloud. Privacy rules can block forbidden data movement, fallbacks explain why another location was chosen, and content-free records show where successful work ran without copying the underlying data.
+
+**Maturity:** experimental alpha with a deterministic planner and optional real-runtime execution. It is a reference planner, not a globally optimal scheduler.
 
 ### [TabLoom](https://github.com/aantenore/tabloom) — let browser tabs share one on-device AI runtime
 
@@ -38,11 +38,11 @@ Instead of every tab loading another copy of the same model, TabLoom coordinates
 
 **Maturity:** alpha library. Its real WebLLM path is verified on Chrome with WebGPU, not across every browser, GPU, or model.
 
-### [Agentic SDLC Codex Plugin](https://github.com/aantenore/agentic-sdlc-codex-plugin) — make coding-agent work readable and reviewable
+### [SemWitness](https://github.com/aantenore/semwitness) — reduce AI token waste without blindly trusting compression
 
-It records what a person asked for, which assumptions and boundaries were agreed, what the agent decided and changed, and how the result was checked. The bundled Change Observatory turns that evidence into a visual timeline that product owners and technical reviewers can inspect together.
+It lets teams test a smaller representation of repeated AI context before trusting it. It preserves the original, checks that protected instructions, code, schemas, and data survive exactly, measures the real token saving after overhead, and leaves reproducible evidence of every check.
 
-**Maturity:** installable, working Codex plugin. Its lineage covers work performed through the governed workflow; it does not make activity outside that boundary auditable.
+**Maturity:** experimental alpha verification layer. It does not claim to prove natural-language meaning, automatically enable compression, or authorize semantic-cache hits.
 
 ### [MoveBeta](https://github.com/aantenore/movebeta-mobile) — private movement feedback for indoor climbers
 
