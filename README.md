@@ -17,14 +17,15 @@ My projects explore each part of that journey as an independent, replaceable bui
 | Project | Real-world impact | Maturity |
 | --- | --- | --- |
 | [myMoE](https://github.com/aantenore/myMoE) | Uses replaceable local models first and considers premium intelligence only when policy, evidence, privacy, and budget allow it. | Alpha workstation control plane with results bounded to documented evaluations. |
-| [TabLoom](https://github.com/aantenore/tabloom) | Lets browser tabs share one on-device AI runtime instead of loading a separate model in every tab. | Alpha library; the real WebLLM path is verified on Chrome/WebGPU only. |
-| [AgenticStrata](https://github.com/aantenore/AgenticStrata) | Makes an AI action reconstructable: what was requested, what was allowed, what changed, and which evidence supports it. | Alpha reference architecture, not a regulatory certification. |
-| [StageFabric](https://github.com/aantenore/stagefabric) | Plans each AI step across browser, local, edge, or cloud locations while blocking forbidden data movement. | Experimental alpha planner, not a globally optimal scheduler. |
-| [PauseMesh](https://github.com/aantenore/pausemesh) | Lets a long-running assistant survive approval waits, disconnects, restarts, and duplicate callbacks without continuing twice. | Alpha runtime; external effects still need the documented idempotency contract. |
 | [SemWitness](https://github.com/aantenore/semwitness) | Measures token-saving transformations while preserving protected instructions, code, schemas, and reproducible evidence. | Experimental alpha; it does not prove natural-language equivalence or authorize cache hits. |
+| [TabLoom](https://github.com/aantenore/tabloom) | Lets browser tabs share one on-device AI runtime instead of loading a separate model in every tab. | Alpha library; the real WebLLM path is verified on Chrome/WebGPU only. |
+| [PauseMesh](https://github.com/aantenore/pausemesh) | Lets a long-running assistant survive approval waits, disconnects, restarts, and duplicate callbacks without continuing twice. | Alpha runtime; external effects still need the documented idempotency contract. |
+| [StageFabric](https://github.com/aantenore/stagefabric) | Plans each AI step across browser, local, edge, or cloud locations while blocking forbidden data movement. | Experimental alpha planner, not a globally optimal scheduler. |
+| [IMPOSBRO Search](https://github.com/aantenore/imposbro-search) | Gives applications one reliable search API across separate data clusters; indexing survives restarts and partial failures stay visible. | Self-hosted alpha with live multi-service recovery gates; a tagged public release is still pending. |
 
 ## Active experiments
 
+- [AgenticStrata](https://github.com/aantenore/AgenticStrata) makes an AI action reconstructable: what was requested, what was allowed, what changed, and which evidence supports it. It is an executable alpha reference architecture, not a regulatory certification.
 - [LocusMesh](https://github.com/aantenore/LocusMesh) checks whether a distributed AI route stays within an operator-approved boundary. It is experimental alpha and does not yet prove that a peer performed the claimed computation.
 - [IntentABI](https://github.com/aantenore/intentabi) measures whether differently worded requests can converge on the same typed intent before anyone enables semantic caching. It is alpha, shadow-only, and never serves a cached answer.
 - [WITShift](https://github.com/aantenore/witshift) turns a narrow TypeScript MCP tool into a reviewable WebAssembly Component candidate and compares its behavior with the original. It is alpha and intentionally rejects tools outside its bounded source subset.
