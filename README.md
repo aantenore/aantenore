@@ -16,7 +16,7 @@ My projects explore each part of that journey as an independent, replaceable bui
 
 | Project | Real-world impact | Maturity |
 | --- | --- | --- |
-| [myMoE](https://github.com/aantenore/myMoE) | Tests the normal AI route against an option that uses fewer paid-model calls, then keeps the normal route unless separate checks and a human-approved trial allow the alternative. | Alpha and installable. Missing or invalid evidence always keeps the normal route; no real paired test has yet demonstrated savings, so no live trial has been approved. |
+| [myMoE](https://github.com/aantenore/myMoE) | Uses smaller local AI models for suitable work, keeps stronger models available, and escalates only when policy and evidence justify the extra cost. | Installable alpha (v0.4.0-alpha.1). Its published local-assistant compatibility check was inconclusive, so broader tool capability remains disabled; live route canaries also stay off because no paired evaluation has yet proved savings. |
 | [AgenticStrata](https://github.com/aantenore/AgenticStrata) | Turns an AI run into a checkable record of what was requested, allowed, changed, and observed; its optional Sigstore verifier can confirm that a trusted signer signed that exact record. | Executable alpha reference architecture. Unsigned records prove consistency, not identity; each deployment still owns its trust roots, revocation, and production policy. |
 | [SemWitness](https://github.com/aantenore/semwitness) | Measures token-saving transformations while preserving protected instructions, code, schemas, and reproducible evidence. | Experimental alpha; it does not prove natural-language equivalence or authorize cache hits. |
 | [PauseMesh](https://github.com/aantenore/pausemesh) | Lets a long-running assistant survive approval waits, disconnects, restarts, and duplicate callbacks without continuing twice. | Alpha runtime; external effects still need the documented idempotency contract. |
@@ -34,7 +34,7 @@ My projects explore each part of that journey as an independent, replaceable bui
 ## Working product experiments
 
 - [MoveBeta](https://github.com/aantenore/movebeta-mobile) helps indoor climbers review one measurable movement signal on-device and compare a focused repeat without uploading video. The PWA is a private beta; its pose signals are not coaching or medical advice.
-- [FreeJoy](https://github.com/aantenore/FreeJoy) turns phones into up to four Windows game controllers through one QR code. Separate host and controller links keep player access away from room administration, while disconnects, timeouts, resets, and shutdown return active controllers to neutral. It is a working local-network prototype, not a broadly benchmarked or packaged consumer release.
+- [FreeJoy](https://github.com/aantenore/FreeJoy) turns phones into up to four Windows game controllers through one QR code. Host and controller links stay separate, and each phone receives a revocable reconnect lease, so a refresh can recover its slot without gaining room administration. It is a CI-tested Windows/Ryujinx prototype; a real PC-and-phone latency and reconnect session is still required before calling it consumer-ready.
 
 ## Engineering principles
 
