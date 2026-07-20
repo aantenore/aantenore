@@ -17,15 +17,15 @@ My projects explore each part of that journey as an independent, replaceable bui
 | Project | Real-world impact | Maturity |
 | --- | --- | --- |
 | [myMoE](https://github.com/aantenore/myMoE) | Tests the normal AI route against an option that uses fewer paid-model calls, then keeps the normal route unless separate checks and a human-approved trial allow the alternative. | Alpha and installable. Missing or invalid evidence always keeps the normal route; no real paired test has yet demonstrated savings, so no live trial has been approved. |
+| [AgenticStrata](https://github.com/aantenore/AgenticStrata) | Turns an AI run into a checkable record of what was requested, allowed, changed, and observed; its optional Sigstore verifier can confirm that a trusted signer signed that exact record. | Executable alpha reference architecture. Unsigned records prove consistency, not identity; each deployment still owns its trust roots, revocation, and production policy. |
 | [SemWitness](https://github.com/aantenore/semwitness) | Measures token-saving transformations while preserving protected instructions, code, schemas, and reproducible evidence. | Experimental alpha; it does not prove natural-language equivalence or authorize cache hits. |
-| [TabLoom](https://github.com/aantenore/tabloom) | Lets browser tabs share one on-device AI runtime instead of loading a separate model in every tab. | Alpha library; the real WebLLM path is verified on Chrome/WebGPU only. |
 | [PauseMesh](https://github.com/aantenore/pausemesh) | Lets a long-running assistant survive approval waits, disconnects, restarts, and duplicate callbacks without continuing twice. | Alpha runtime; external effects still need the documented idempotency contract. |
-| [StageFabric](https://github.com/aantenore/stagefabric) | Plans each AI step across browser, local, edge, or cloud locations while blocking forbidden data movement. | Experimental alpha planner, not a globally optimal scheduler. |
+| [TabLoom](https://github.com/aantenore/tabloom) | Lets browser tabs share one on-device AI runtime instead of loading a separate model in every tab. | Alpha library; the real WebLLM path is verified on Chrome/WebGPU only. |
 | [IMPOSBRO Search](https://github.com/aantenore/imposbro-search) | Gives applications one reliable search API across separate data clusters; indexing survives restarts and partial failures stay visible. | Self-hosted alpha with live multi-service recovery gates; a tagged public release is still pending. |
 
 ## Active experiments
 
-- [AgenticStrata](https://github.com/aantenore/AgenticStrata) makes an AI action reconstructable: what was requested, what was allowed, what changed, and which evidence supports it. It is an executable alpha reference architecture, not a regulatory certification.
+- [StageFabric](https://github.com/aantenore/stagefabric) plans each AI step across browser, local, edge, or cloud locations while blocking forbidden data movement. It is an experimental alpha planner, not a globally optimal scheduler.
 - [LocusMesh](https://github.com/aantenore/LocusMesh) checks whether a distributed AI route stays within an operator-approved boundary. It is experimental alpha and does not yet prove that a peer performed the claimed computation.
 - [IntentABI](https://github.com/aantenore/intentabi) measures whether differently worded requests can converge on the same typed intent before anyone enables semantic caching. It is alpha, shadow-only, and never serves a cached answer.
 - [WITShift](https://github.com/aantenore/witshift) turns a narrow TypeScript MCP tool into a reviewable WebAssembly Component candidate and compares its behavior with the original. It is alpha and intentionally rejects tools outside its bounded source subset.
@@ -34,7 +34,7 @@ My projects explore each part of that journey as an independent, replaceable bui
 ## Working product experiments
 
 - [MoveBeta](https://github.com/aantenore/movebeta-mobile) helps indoor climbers review one measurable movement signal on-device and compare a focused repeat without uploading video. The PWA is a private beta; its pose signals are not coaching or medical advice.
-- [FreeJoy](https://github.com/aantenore/FreeJoy) turns phones into up to four Windows game controllers through one QR code. It is a working local-network prototype, not a broadly benchmarked or packaged consumer release.
+- [FreeJoy](https://github.com/aantenore/FreeJoy) turns phones into up to four Windows game controllers through one QR code. Separate host and controller links keep player access away from room administration, while disconnects, timeouts, resets, and shutdown return active controllers to neutral. It is a working local-network prototype, not a broadly benchmarked or packaged consumer release.
 
 ## Engineering principles
 
