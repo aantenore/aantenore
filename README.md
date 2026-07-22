@@ -16,12 +16,12 @@ My projects explore each part of that journey as an independent, replaceable bui
 
 | Project | Real-world impact | Maturity |
 | --- | --- | --- |
-| [myMoE](https://github.com/aantenore/myMoE) | Uses smaller local AI models for suitable work, keeps stronger models available, and escalates only when policy and evidence justify the extra cost. | Installable alpha (v0.4.0-alpha.1). Its published local-assistant compatibility check was inconclusive, so broader tool capability remains disabled; live route canaries also stay off because no paired evaluation has yet proved savings. |
+| [myMoE](https://github.com/aantenore/myMoE) | Runs coding work on evidence-qualified local model cells and coordinates concurrent agents so they do not count the same free memory twice. | Installable alpha (v0.13.0-alpha.1). Cooperative leases coordinate participating processes; they do not reserve RAM or VRAM at operating-system level or govern other applications. |
 | [AgenticStrata](https://github.com/aantenore/AgenticStrata) | Turns an AI run into a checkable record of what was requested, allowed, changed, and observed; its optional Sigstore verifier can confirm that a trusted signer signed that exact record. | Executable alpha reference architecture. Unsigned records prove consistency, not identity; each deployment still owns its trust roots, revocation, and production policy. |
 | [SemWitness](https://github.com/aantenore/semwitness) | Measures token-saving transformations while preserving protected instructions, code, schemas, and reproducible evidence. | Experimental alpha; it does not prove natural-language equivalence or authorize cache hits. |
 | [PauseMesh](https://github.com/aantenore/pausemesh) | Lets a long-running assistant survive approval waits, disconnects, restarts, and duplicate callbacks without continuing twice. | Alpha runtime; external effects still need the documented idempotency contract. |
 | [TabLoom](https://github.com/aantenore/tabloom) | Lets browser tabs share one on-device AI runtime instead of loading a separate model in every tab. | Alpha library; the real WebLLM path is verified on Chrome/WebGPU only. |
-| [IMPOSBRO Search](https://github.com/aantenore/imposbro-search) | Gives applications one reliable search API across separate data clusters; indexing survives restarts and partial failures stay visible. | Self-hosted alpha with live multi-service recovery gates; a tagged public release is still pending. |
+| [TruthLease](https://github.com/aantenore/truthlease) | Stops an AI agent from acting on a plan after the facts or target it depended on have changed. | Installable alpha (v0.3.0-alpha.1). It fences the final commit and supports stale-safe LangGraph resume; external systems still require their own transaction and idempotency controls. |
 
 ## Active experiments
 
