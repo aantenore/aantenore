@@ -30,6 +30,9 @@ My projects explore each part of that journey as an independent, replaceable bui
 - [IntentABI](https://github.com/aantenore/intentabi) measures whether differently worded requests can converge on the same typed intent before anyone enables semantic caching. It is alpha, shadow-only, and never serves a cached answer.
 - [WITShift](https://github.com/aantenore/witshift) turns a narrow TypeScript MCP tool into a reviewable WebAssembly Component candidate and compares its behavior with the original. It is alpha and intentionally rejects tools outside its bounded source subset.
 - [Semantic Junkyard](https://github.com/aantenore/semantic-junkyard) connects knowledge in files, databases, and Git while keeping the original sources authoritative. It is a local-first reference product, not a production multi-tenant platform.
+- [reinloop](https://github.com/aantenore/reinloop) lets a team define an AI agent, or a team of agents, as a Markdown file and run it on any model, with budgets, permissions, crash-safe resume, and MCP built in. It is a 0.x release with no runtime dependencies; its shell tool is confined to a directory but is not a sandbox.
+- [IMPOSBRO Search](https://github.com/aantenore/imposbro-search) gives an application one search API over separate Typesense clusters, with durable indexing, safe routing migrations, and recovery controls. It does not claim that a deployment is certified, highly available, or compliant by itself; that depends on the operator's infrastructure and evidence.
+- [ThreadSwarm](https://github.com/aantenore/ThreadSwarm) splits a complex local job into a validated graph of small steps, runs independent steps in parallel worker processes, and records retries and outcomes. It is a single-machine runtime, not a distributed scheduler or an autonomous agent swarm.
 
 ## Working product experiments
 
