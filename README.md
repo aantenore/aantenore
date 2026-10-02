@@ -12,6 +12,12 @@ Imagine a team building an assistant for sensitive documents. It should keep pri
 
 My projects explore each part of that journey as an independent, replaceable building block. They can be used separately: the goal is not one closed platform, but practical foundations that let teams change models, providers, policies, and infrastructure without rebuilding everything.
 
+## How these projects happen
+
+When an idea crosses my mind, I build it. Not because I am sure it will work, but because that is the fastest way to find out where it breaks. Every repository here is a small lab: an idea, an implementation, and a pile of problems I only discovered by trying.
+
+Fair warning: I cannot promise that everything you find here works. I can promise that every problem I ran into while building them got solved, and whatever is still unproven is spelled out in each project's maturity notes. Think of these projects less as finished products and more as maps of the traps, drawn by someone who stepped on most of them first.
+
 ## Selected work
 
 | Project | Real-world impact | Maturity |
