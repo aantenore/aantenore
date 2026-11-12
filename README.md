@@ -4,6 +4,8 @@
 
 [LinkedIn](https://www.linkedin.com/in/antonio-antenore-a9b44a107/) · Turin, Italy
 
+I am open to collaborations and exchanges of ideas on interesting projects. If you want to talk about something, or just brainstorm, write to me on [LinkedIn](https://www.linkedin.com/in/antonio-antenore-a9b44a107/) or open a discussion or issue on any of my repositories.
+
 I help product and engineering teams turn useful AI ideas into dependable products: private when they need to be, efficient enough to run in the real world, and clear enough for people to understand and trust.
 
 ## How this place works
