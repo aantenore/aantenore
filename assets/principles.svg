@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" role="img" aria-labelledby="t d">
+<title id="t">Engineering principles</title>
+<desc id="d">A rock wall panel where one climber traverses left to right and five holds light up in sequence: config over hardcoding, explicit contracts, local-first, evidence over claims, useful to people.</desc>
+<defs>
+<radialGradient id="glow"><stop offset="0" stop-color="#2dd4bf" stop-opacity=".85"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></radialGradient>
+<linearGradient id="hz2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f59e0b" stop-opacity="0"/><stop offset="1" stop-color="#f59e0b" stop-opacity=".15"/></linearGradient>
+<linearGradient id="wf" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f3b66"/><stop offset="1" stop-color="#10294d"/></linearGradient>
+<pattern id="rock" width="46" height="46" patternUnits="userSpaceOnUse"><circle cx="8" cy="10" r="2" fill="#0b1d3a" opacity=".5"/><circle cx="31" cy="22" r="3" fill="#0b1d3a" opacity=".4"/><circle cx="18" cy="38" r="1.5" fill="#fff" opacity=".1"/><path d="M36,4 L42,12 M4,28 L12,26" stroke="#0b1d3a" stroke-width="1.5" opacity=".5"/></pattern>
+<clipPath id="fr"><rect width="900" height="420" rx="14"/></clipPath>
+<style>
+.mono{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace}.sans{font-family:ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif}
+.dA{animation:dA 18s linear infinite}.dB{animation:dB 18s linear infinite}
+@keyframes dA{to{transform:translateX(-300px)}}@keyframes dB{to{transform:translateX(-450px)}}
+.cl{fill:#8aa0bf;opacity:.16}
+.cl>g{animation:cdrift 60s linear infinite}
+.c1>g{animation-duration:84s;animation-delay:-30s}.c2>g{animation-duration:110s;animation-delay:-70s}.c0>g{animation-delay:-12s}
+@keyframes cdrift{from{transform:translateX(-120px)}to{transform:translateX(1020px)}}
+.st{animation:tw 4s ease-in-out infinite}.s1{animation-delay:-1.3s}.s2{animation-delay:-2.6s}
+@keyframes tw{0%,100%{opacity:.2}50%{opacity:.9}}
+.bf{animation:fly 16s ease-in-out infinite}
+@keyframes fly{0%,100%{transform:translate(0,0)}25%{transform:translate(110px,-26px)}50%{transform:translate(220px,6px)}75%{transform:translate(110px,34px)}}
+.bw{transform-box:fill-box;transform-origin:center;animation:fl .32s ease-in-out infinite alternate}
+@keyframes fl{from{transform:scaleX(1)}to{transform:scaleX(.25)}}
+.bz .bw{animation:br 4s ease-in-out infinite alternate}
+@keyframes br{from{transform:scaleX(.3)}to{transform:scaleX(.45)}}
+@keyframes trav{0%{transform:translate(40px,273px)}4%{transform:translate(40px,273px)}10%{transform:translate(110px,273px)}14%{transform:translate(110px,273px)}28%{transform:translate(280px,248px)}32%{transform:translate(280px,248px)}46%{transform:translate(450px,278px)}50%{transform:translate(450px,278px)}64%{transform:translate(620px,248px)}68%{transform:translate(620px,248px)}82%{transform:translate(790px,273px)}100%{transform:translate(790px,273px)}}@keyframes q0{0%,9%{opacity:0}10%,95%{opacity:1}98%,100%{opacity:0}}.q0{animation:q0 18s linear infinite}@keyframes q1{0%,27%{opacity:0}28%,95%{opacity:1}98%,100%{opacity:0}}.q1{animation:q1 18s linear infinite}@keyframes q2{0%,45%{opacity:0}46%,95%{opacity:1}98%,100%{opacity:0}}.q2{animation:q2 18s linear infinite}@keyframes q3{0%,63%{opacity:0}64%,95%{opacity:1}98%,100%{opacity:0}}.q3{animation:q3 18s linear infinite}@keyframes q4{0%,81%{opacity:0}82%,95%{opacity:1}98%,100%{opacity:0}}.q4{animation:q4 18s linear infinite}
+.fade{animation:fade 18s linear infinite}
+@keyframes fade{0%{opacity:0}2%{opacity:1}95%{opacity:1}98%,100%{opacity:0}}
+.cT{transform:translate(40px,273px);animation:trav 18s ease-in-out infinite}
+.ttl{font-weight:700;font-size:24px;fill:#e6edf3;paint-order:stroke;stroke:#0b1d3a;stroke-width:4px;stroke-linejoin:round}
+.limb{transform-box:view-box;transform-origin:0 0}
+.a{animation:swA 1.1s ease-in-out infinite}.b{animation:swB 1.1s ease-in-out infinite}
+@keyframes swA{from{transform:rotate(-10deg)}to{transform:rotate(12deg)}}
+@keyframes swB{from{transform:rotate(12deg)}to{transform:rotate(-10deg)}}
+.bob{animation:bob .55s ease-in-out infinite alternate}
+@keyframes bob{from{transform:translateY(0)}to{transform:translateY(-1.6px)}}
+.spark{opacity:0;transform-box:view-box;transform-origin:0 0;animation:spk 18s ease-out infinite}
+@keyframes spk{0%,82%{opacity:0;transform:scale(0)}85%{opacity:1;transform:scale(1.3) rotate(30deg)}92%{opacity:.7;transform:scale(.8) rotate(60deg)}96%,100%{opacity:0;transform:scale(0)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.fade{opacity:1}.cT{transform:translate(790px,273px)}.lit{opacity:1}.spark{opacity:.9;transform:scale(1)}}</style>
+</defs>
+<g clip-path="url(#fr)">
+<rect width="900" height="420" fill="url(#wf)"/><rect width="900" height="420" fill="url(#rock)"/><rect width="900" height="420" fill="url(#hz2)"/>
+<path d="M370,420 L392,360 L380,320 L410,262 M820,430 L800,370 L826,320 L805,262 L840,210 M455,150 L490,185 L478,225 M560,430 L548,392 M780,120 L808,150 L798,185 M420,230 L450,260 M840,380 L880,400" transform="scale(1.1) translate(-300,-60)" fill="none" stroke="#0b1d3a" stroke-width="2" stroke-linecap="round" opacity=".45"/>
+<rect y="0" width="900" height="14" fill="#0b1d3a" opacity=".5"/>
+<path d="M110,225 L280,200 L450,230 L620,200 L790,225" fill="none" stroke="#2dd4bf" stroke-opacity=".35" stroke-width="2" stroke-dasharray="6 8"/>
+<g class="fade">
+<ellipse cx="110" cy="225" rx="18" ry="14" fill="#2dd4bf" fill-opacity=".3" stroke="#2dd4bf" stroke-opacity=".6" stroke-width="2.5"/><g class="lit q0" opacity="0"><circle cx="110" cy="225" r="44" fill="url(#glow)"/><ellipse cx="110" cy="225" rx="18" ry="14" fill="#2dd4bf" stroke="#fff" stroke-opacity=".8" stroke-width="2.5"/><text class="ttl sans" x="110" y="135" text-anchor="middle"><tspan x="110" dy="0">Config over</tspan><tspan x="110" dy="28">hardcoding</tspan></text></g><ellipse cx="280" cy="200" rx="18" ry="14" fill="#2dd4bf" fill-opacity=".3" stroke="#2dd4bf" stroke-opacity=".6" stroke-width="2.5"/><g class="lit q1" opacity="0"><circle cx="280" cy="200" r="44" fill="url(#glow)"/><ellipse cx="280" cy="200" rx="18" ry="14" fill="#2dd4bf" stroke="#fff" stroke-opacity=".8" stroke-width="2.5"/><text class="ttl sans" x="280" y="110" text-anchor="middle"><tspan x="280" dy="0">Explicit</tspan><tspan x="280" dy="28">contracts</tspan></text></g><ellipse cx="450" cy="230" rx="18" ry="14" fill="#2dd4bf" fill-opacity=".3" stroke="#2dd4bf" stroke-opacity=".6" stroke-width="2.5"/><g class="lit q2" opacity="0"><circle cx="450" cy="230" r="44" fill="url(#glow)"/><ellipse cx="450" cy="230" rx="18" ry="14" fill="#2dd4bf" stroke="#fff" stroke-opacity=".8" stroke-width="2.5"/><text class="ttl sans" x="450" y="168" text-anchor="middle"><tspan x="450" dy="0">Local-first</tspan></text></g><ellipse cx="620" cy="200" rx="18" ry="14" fill="#2dd4bf" fill-opacity=".3" stroke="#2dd4bf" stroke-opacity=".6" stroke-width="2.5"/><g class="lit q3" opacity="0"><circle cx="620" cy="200" r="44" fill="url(#glow)"/><ellipse cx="620" cy="200" rx="18" ry="14" fill="#2dd4bf" stroke="#fff" stroke-opacity=".8" stroke-width="2.5"/><text class="ttl sans" x="620" y="110" text-anchor="middle"><tspan x="620" dy="0">Evidence</tspan><tspan x="620" dy="28">over claims</tspan></text></g><ellipse cx="790" cy="225" rx="18" ry="14" fill="#2dd4bf" fill-opacity=".3" stroke="#2dd4bf" stroke-opacity=".6" stroke-width="2.5"/><g class="lit q4" opacity="0"><circle cx="790" cy="225" r="44" fill="url(#glow)"/><ellipse cx="790" cy="225" rx="18" ry="14" fill="#2dd4bf" stroke="#fff" stroke-opacity=".8" stroke-width="2.5"/><text class="ttl sans" x="790" y="135" text-anchor="middle"><tspan x="790" dy="0">Useful</tspan><tspan x="790" dy="28">to people</tspan></text></g>
+<g class="cT"><g class="bob"><g transform="translate(0,0)"><path class="limb b" d="M0,0 L-9,13 L-4,30" fill="none" stroke="#f59e0b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(0,0)"><path class="limb a" d="M0,0 L9,10 L11,26" fill="none" stroke="#f59e0b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g><path d="M0,0 L0,-26" stroke="#f59e0b" stroke-width="7" stroke-linecap="round"/><g transform="translate(0,-24)"><path class="limb a" d="M0,0 L-9,-13 L-3,-26" fill="none" stroke="#f59e0b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(0,-24)"><path class="limb b" d="M0,0 L9,-8 L12,-17" fill="none" stroke="#f59e0b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g><circle cx="-8" cy="3" r="4.2" fill="#fff" stroke="#8aa0bf"/><circle cx="0" cy="-35" r="6.5" fill="#e6edf3"/><path d="M-8.5,-36 A8.5,8.5 0 0 1 8.5,-36 Z" fill="#2dd4bf" stroke="#0b1d3a" stroke-width="1"/></g></g>
+<g transform="translate(820,205)"><path class="spark" d="M0,-9 L2,-2 L9,0 L2,2 L0,9 L-2,2 L-9,0 L-2,-2Z" fill="#f59e0b"/></g>
+</g>
+</g>
+<rect x=".5" y=".5" width="899" height="419" rx="13.5" fill="none" stroke="#1f3b66" stroke-width="1"/>
+</svg>
