@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 400" width="860" height="400" role="img" aria-labelledby="t d">
 <title id="t">Animated terminal</title>
 <desc id="d">A terminal window typing whoami, cat now.txt, a refused Friday deploy, a rope check and a force-with-lease push that only happens after a backup.</desc>
 <style>
-.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:15px;white-space:pre}
+.mono{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;font-size:15px;white-space:pre}
 .t1{transform-box:view-box;transform-origin:22px 0;animation:ty1 16s infinite}
 @keyframes ty1{0%,2.5%{transform:scaleX(0);animation-timing-function:steps(8,end)}7.5%{transform:scaleX(1);animation-timing-function:linear}98.5%{transform:scaleX(1)}98.6%,100%{transform:scaleX(0)}}
 .o1{animation:ou1 16s infinite}
@@ -30,7 +30,7 @@
 @media (prefers-reduced-motion: reduce){.scene,.end,.cur,.t1,.o1,.t2,.o2,.t3,.o3,.t4,.o4,.t5,.o5{animation:none!important;opacity:1!important;transform:none!important}}
 </style>
 <defs>
-<clipPath id="win"><rect width="760" height="400" rx="10"/></clipPath>
+<clipPath id="win"><rect width="860" height="400" rx="14"/></clipPath>
 <clipPath id="c1"><rect class="t1" x="22" y="62" width="76" height="26"/></clipPath>
 <clipPath id="c2"><rect class="t2" x="22" y="118" width="121" height="26"/></clipPath>
 <clipPath id="c3"><rect class="t3" x="22" y="174" width="202" height="26"/></clipPath>
@@ -38,24 +38,24 @@
 <clipPath id="c5"><rect class="t5" x="22" y="286" width="265" height="26"/></clipPath>
 </defs>
 <g clip-path="url(#win)">
-<rect width="760" height="400" fill="#0d1117"/>
-<rect width="760" height="40" fill="#161b22"/>
-<rect y="39" width="760" height="1" fill="#30363d"/>
-<circle cx="22" cy="20" r="6" fill="#ff5f56"/><circle cx="42" cy="20" r="6" fill="#ffbd2e"/><circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text x="380" y="25" text-anchor="middle" class="mono" style="font-size:13px" fill="#8b949e">antonio@turin: ~/ideas</text>
+<rect width="860" height="400" fill="#0f2342"/>
+<rect width="860" height="40" fill="#10294d"/>
+<rect y="39" width="860" height="1" fill="#1f3b66"/>
+<circle cx="22" cy="20" r="6" fill="#8aa0bf"/><circle cx="42" cy="20" r="6" fill="#f59e0b"/><circle cx="62" cy="20" r="6" fill="#2dd4bf"/>
+<text x="430" y="25" text-anchor="middle" class="mono" style="font-size:13px" fill="#8aa0bf">antonio@turin: ~/ideas</text>
 <g class="scene">
-<text class="mono" x="22" y="80" clip-path="url(#c1)"><tspan fill="#3fb950">$ </tspan><tspan fill="#e6edf3">whoami</tspan></text>
-<text class="mono o1" x="22" y="108" fill="#8b949e">antonio — software architect, mild chaos, keeps receipts</text>
-<text class="mono" x="22" y="136" clip-path="url(#c2)"><tspan fill="#3fb950">$ </tspan><tspan fill="#e6edf3">cat now.txt</tspan></text>
-<text class="mono o2" x="22" y="164" fill="#8b949e">agents that don't need babysitting. local models. things that break on purpose.</text>
-<text class="mono" x="22" y="192" clip-path="url(#c3)"><tspan fill="#3fb950">$ </tspan><tspan fill="#e6edf3">./deploy </tspan><tspan fill="#79c0ff">--on-friday</tspan></text>
-<text class="mono o3" x="22" y="220" fill="#d29922">refused: I have principles (and a weekend)</text>
-<text class="mono" x="22" y="248" clip-path="url(#c4)"><tspan fill="#3fb950">$ </tspan><tspan fill="#e6edf3">climb </tspan><tspan fill="#79c0ff">--check-rope</tspan></text>
-<text class="mono o4" x="22" y="276" fill="#d29922">rope checked twice. trusting it. (same rule as for backups)</text>
-<text class="mono" x="22" y="304" clip-path="url(#c5)"><tspan fill="#3fb950">$ </tspan><tspan fill="#e6edf3">git push </tspan><tspan fill="#79c0ff">--force-with-lease</tspan></text>
-<text class="mono o5" x="22" y="332" fill="#d29922">only after a backup. I am not a monster.</text>
-<g class="end"><text class="mono" x="22" y="360" fill="#3fb950">$ </text><rect class="cur" x="40" y="346" width="9" height="18" fill="#e6edf3"/></g>
+<text class="mono" x="22" y="80" clip-path="url(#c1)"><tspan fill="#2dd4bf">$ </tspan><tspan fill="#e6edf3">whoami</tspan></text>
+<text class="mono o1" x="22" y="108" fill="#8aa0bf">antonio — software architect, mild chaos, keeps receipts</text>
+<text class="mono" x="22" y="136" clip-path="url(#c2)"><tspan fill="#2dd4bf">$ </tspan><tspan fill="#e6edf3">cat now.txt</tspan></text>
+<text class="mono o2" x="22" y="164" fill="#8aa0bf">agents that don't need babysitting. local models. things that break on purpose.</text>
+<text class="mono" x="22" y="192" clip-path="url(#c3)"><tspan fill="#2dd4bf">$ </tspan><tspan fill="#e6edf3">./deploy </tspan><tspan fill="#2dd4bf">--on-friday</tspan></text>
+<text class="mono o3" x="22" y="220" fill="#f59e0b">refused: I have principles (and a weekend)</text>
+<text class="mono" x="22" y="248" clip-path="url(#c4)"><tspan fill="#2dd4bf">$ </tspan><tspan fill="#e6edf3">climb </tspan><tspan fill="#2dd4bf">--check-rope</tspan></text>
+<text class="mono o4" x="22" y="276" fill="#f59e0b">rope checked twice. trusting it. (same rule as for backups)</text>
+<text class="mono" x="22" y="304" clip-path="url(#c5)"><tspan fill="#2dd4bf">$ </tspan><tspan fill="#e6edf3">git push </tspan><tspan fill="#2dd4bf">--force-with-lease</tspan></text>
+<text class="mono o5" x="22" y="332" fill="#f59e0b">only after a backup. I am not a monster.</text>
+<g class="end"><text class="mono" x="22" y="360" fill="#2dd4bf">$ </text><rect class="cur" x="40" y="346" width="9" height="18" fill="#e6edf3"/></g>
 </g>
 </g>
-<rect x="0.5" y="0.5" width="759" height="399" rx="10" fill="none" stroke="#30363d"/>
+<rect x=".5" y=".5" width="859" height="399" rx="13.5" fill="none" stroke="#1f3b66" stroke-width="1"/>
 </svg>

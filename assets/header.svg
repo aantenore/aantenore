@@ -1,22 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 260" width="1280" height="260" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 220" width="860" height="220" role="img" aria-labelledby="t d">
 <title id="t">Antonio Antenore</title>
-<desc id="d">Banner with drifting waves over a blue to teal to violet gradient, showing the name Antonio Antenore, software architect and professional breaker of things (for science).</desc>
-<style>
-.bg{animation:bg 36s linear infinite}@keyframes bg{from{transform:translateX(0)}to{transform:translateX(-1280px)}}
-.w1{animation:w1 30s linear infinite}@keyframes w1{from{transform:translateX(0)}to{transform:translateX(-640px)}}
-.w2{animation:w2 18s linear infinite}@keyframes w2{from{transform:translateX(-640px)}to{transform:translateX(0)}}
-.name{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;font-weight:700;font-size:64px;fill:#fff}
-.sub{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;font-size:22px;fill:#c9d1d9}
-@media (prefers-reduced-motion: reduce){.bg,.w1,.w2{animation:none}}
-</style>
+<desc id="d">Base camp banner: a night sky over two drifting mountain ridges, with the name Antonio Antenore, software architect and professional breaker of things (for science).</desc>
 <defs>
-<linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="2560" y2="0">
-<stop offset="0.0" stop-color="#0b1d3a"/><stop offset="0.125" stop-color="#0e7c86"/><stop offset="0.25" stop-color="#5b3fa0"/><stop offset="0.375" stop-color="#0e7c86"/><stop offset="0.5" stop-color="#0b1d3a"/><stop offset="0.625" stop-color="#0e7c86"/><stop offset="0.75" stop-color="#5b3fa0"/><stop offset="0.875" stop-color="#0e7c86"/><stop offset="1.0" stop-color="#0b1d3a"/>
-</linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b1d3a"/><stop offset=".7" stop-color="#10294d"/><stop offset="1" stop-color="#f59e0b" stop-opacity=".35"/></linearGradient>
+<radialGradient id="tg"><stop offset="0" stop-color="#2dd4bf" stop-opacity=".25"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></radialGradient>
+<clipPath id="fr"><rect width="860" height="220" rx="14"/></clipPath>
+<style>
+.mono{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace}.sans{font-family:ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif}
+.dA{animation:dA 18s linear infinite}.dB{animation:dB 18s linear infinite}
+@keyframes dA{to{transform:translateX(-300px)}}@keyframes dB{to{transform:translateX(-450px)}}
+.cl{fill:#8aa0bf;opacity:.16}
+.cl>g{animation:cdrift 60s linear infinite}
+.c1>g{animation-duration:84s;animation-delay:-30s}.c2>g{animation-duration:110s;animation-delay:-70s}.c0>g{animation-delay:-12s}
+@keyframes cdrift{from{transform:translateX(-120px)}to{transform:translateX(1020px)}}
+.st{animation:tw 4s ease-in-out infinite}.s1{animation-delay:-1.3s}.s2{animation-delay:-2.6s}
+@keyframes tw{0%,100%{opacity:.2}50%{opacity:.9}}
+.name{font-weight:700;font-size:52px;fill:#e6edf3}
+.sub{font-size:17px;fill:#8aa0bf}
+.bc{font-size:12px;fill:#f59e0b;letter-spacing:2px}
+.gl{animation:gl 9s ease-in-out infinite}
+@keyframes gl{0%,100%{opacity:.5}50%{opacity:1}}
+.sp{transform-box:view-box;transform-origin:0 0;animation:spk 9s ease-in-out infinite}
+@keyframes spk{0%,100%{opacity:0;transform:scale(0)}40%,60%{opacity:.9;transform:scale(1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.sp{opacity:.7;transform:scale(1)}}</style>
 </defs>
-<rect class="bg" width="2560" height="260" fill="url(#g)"/>
-<path class="w1" d="M0,150 q160,-40 320,0 t320,0 t320,0 t320,0 t320,0 t320,0 t320,0 t320,0 L2560,260 L0,260 Z" fill="#fff" fill-opacity="0.08"/>
-<path class="w2" d="M0,185 q160,-30 320,0 t320,0 t320,0 t320,0 t320,0 t320,0 t320,0 t320,0 L2560,260 L0,260 Z" fill="#fff" fill-opacity="0.06"/>
-<text class="name" x="640" y="125" text-anchor="middle">Antonio Antenore</text>
-<text class="sub" x="640" y="170" text-anchor="middle">software architect · professional breaker of things (for science)</text>
+<g clip-path="url(#fr)">
+<rect width="860" height="220" fill="#0b1d3a"/><rect width="860" height="220" fill="url(#sky)"/>
+<ellipse class="gl" cx="430" cy="105" rx="360" ry="80" fill="url(#tg)"/>
+<circle class="st s0" cx="40" cy="30" r="1.4" fill="#fff"/><circle class="st s1" cx="120" cy="60" r="1" fill="#fff"/><circle class="st s2" cx="210" cy="24" r="1.6" fill="#fff"/><circle class="st s0" cx="300" cy="50" r="1" fill="#fff"/><circle class="st s1" cx="380" cy="22" r="1.3" fill="#fff"/><circle class="st s2" cx="470" cy="70" r="1" fill="#fff"/><circle class="st s0" cx="540" cy="18" r="1.5" fill="#fff"/><circle class="st s1" cx="620" cy="38" r="1" fill="#fff"/><circle class="st s2" cx="700" cy="26" r="1.4" fill="#fff"/><circle class="st s0" cx="790" cy="44" r="1" fill="#fff"/><circle class="st s1" cx="830" cy="20" r="1.6" fill="#fff"/><circle class="st s2" cx="260" cy="90" r="1" fill="#fff"/>
+<g class="cl c0" transform="translate(0,70)"><g><ellipse cx="0" cy="0" rx="50" ry="11"/><ellipse cx="25" cy="-6" rx="30" ry="10"/><ellipse cx="-25" cy="-4" rx="27.5" ry="9"/></g></g><g class="cl c1" transform="translate(0,120)"><g><ellipse cx="0" cy="0" rx="38" ry="8.36"/><ellipse cx="19" cy="-6" rx="22.8" ry="7.6"/><ellipse cx="-19" cy="-4" rx="20.9" ry="6.84"/></g></g><g class="cl c2" transform="translate(0,40)"><g><ellipse cx="0" cy="0" rx="44" ry="9.68"/><ellipse cx="22" cy="-6" rx="26.4" ry="8.8"/><ellipse cx="-22" cy="-4" rx="24.2" ry="7.92"/></g></g>
+<path class="dA" d="M0,250 L0,188.5 L75,167.5 L135,185 L210,158.75 L255,179.75 L300,188.5 L375,167.5 L435,185 L510,158.75 L555,179.75 L600,188.5 L675,167.5 L735,185 L810,158.75 L855,179.75 L900,188.5 L975,167.5 L1035,185 L1110,158.75 L1155,179.75 L1200,188.5 L1275,167.5 L1335,185 L1410,158.75 L1455,179.75 L1500,188.5 L1500,250Z" fill="#10294d" stroke="#1f3b66" stroke-width="1.5"/><path class="dB" d="M0,250 L0,199 L90,179.75 L157.5,194.8 L270,172.75 L360,191.3 L450,199 L540,179.75 L607.5,194.8 L720,172.75 L810,191.3 L900,199 L990,179.75 L1057.5,194.8 L1170,172.75 L1260,191.3 L1350,199 L1440,179.75 L1507.5,194.8 L1620,172.75 L1710,191.3 L1800,199 L1800,250Z" fill="#0f2342" stroke="#1f3b66" stroke-width="1.5"/>
+<g transform="translate(110,50)"><path class="sp" d="M0,-9 L2,-2 L9,0 L2,2 L0,9 L-2,2 L-9,0 L-2,-2Z" fill="#f59e0b" style="animation-delay:0s"/></g><g transform="translate(742,62)"><path class="sp" d="M0,-9 L2,-2 L9,0 L2,2 L0,9 L-2,2 L-9,0 L-2,-2Z" fill="#f59e0b" style="animation-delay:3s"/></g><g transform="translate(600,28)"><path class="sp" d="M0,-9 L2,-2 L9,0 L2,2 L0,9 L-2,2 L-9,0 L-2,-2Z" fill="#f59e0b" style="animation-delay:6s"/></g>
+<text class="bc mono" x="28" y="36">BASE CAMP</text>
+<text class="name sans" x="430" y="100" text-anchor="middle">Antonio Antenore</text>
+<text class="sub sans" x="430" y="136" text-anchor="middle">software architect · professional breaker of things (for science)</text>
+</g>
+<rect x=".5" y=".5" width="859" height="219" rx="13.5" fill="none" stroke="#1f3b66" stroke-width="1"/>
 </svg>
