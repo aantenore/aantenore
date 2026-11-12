@@ -40,16 +40,16 @@
 <p align="center"><img src="assets/divider-2.svg" alt="Progress marker, stage 2 of 5, on a mountain ridge profile" width="860" height="70"></p>
 
 <a id="rack"></a>
-<h3 align="center">The rack: distributed systems, data pipelines, agentic AI and the stack behind them</h3>
+<h3 align="center">The rack: distributed systems, data pipelines, agentic AI, knowledge modelling and the stack behind them</h3>
 
-<p align="center"><img src="assets/rack.svg" alt="A climber's gear rack of fourteen swaying carabiners labelled distributed, self-healing, config-driven, data pipelines, agentic AI, event-driven, Python, TypeScript, Java, Spring, AWS, Kafka, React and cloud-native" width="860" height="420"></p>
+<p align="center"><img src="assets/rack.svg" alt="A climber's gear rack of fourteen swaying carabiners labelled Distributed, Self-healing, Config-driven, Data pipelines, Agentic AI, Knowledge modelling, Python, TypeScript, Java, Spring, AWS, Kafka, React and cloud-native" width="860" height="420"></p>
 
 <details>
 <summary>The rack, as text</summary>
 
 <br>
 
-Interests: distributed architectures, self-resilient systems, configuration-driven platforms that serve many use cases, web applications, data pipelines, agentic AI, event-driven architecture, microservices, cloud native. Stack: Python, TypeScript, Java / Spring Boot, React, AWS, Kafka.
+Interests: distributed architectures, self-resilient systems, configuration-driven platforms that serve many use cases, web applications, data pipelines, agentic AI, knowledge modelling for complex agentic systems, event-driven architecture, microservices, cloud native. Stack: Python, TypeScript, Java / Spring Boot, React, AWS, Kafka.
 
 Background: full-stack, microservices, distributed systems, data engineering, cloud-native and applied AI, with research in security and privacy for IoT systems.
 
@@ -72,7 +72,7 @@ Background: full-stack, microservices, distributed systems, data engineering, cl
 <p align="center"><img src="assets/collab.svg" alt="Looking for rope partners: tags to clip in (hard problems, half-baked ideas, brainstorms, failure stories) and to leave at the base (synergies, pointless meetings, rewrite in X, quick calls), with a roped pair and a third climber stepping onto the rope" width="860" height="459"></p>
 
 <p align="center">Open to collaborations, idea swaps and brainstorming on interesting projects.<br>
-AI engineer and software architect in Turin, Italy, designing distributed, self-resilient and configuration-driven systems: web applications, data pipelines and agentic AI.</p>
+AI engineer and software architect in Turin, Italy, designing distributed, self-resilient and configuration-driven systems: web applications, data pipelines and agentic AI, with a focus on knowledge modelling for complex agentic systems.</p>
 
 <p align="center"><img src="assets/divider-5.svg" alt="Progress marker, stage 5 of 5, on a mountain ridge profile" width="860" height="70"></p>
 
