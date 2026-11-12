@@ -1,49 +1,24 @@
-<div align="center">
+<p align="center"><img src="assets/header.svg" alt="Antonio Antenore, AI engineer and software architect in Turin, Italy: agentic AI, local LLMs, distributed systems" width="860"></p>
 
-<img src="assets/header.svg" alt="Antonio Antenore, AI engineer and software architect: agentic AI, multi-agent systems, MCP and local LLMs" width="860">
+<p align="center"><a href="https://www.linkedin.com/in/antonio-antenore-a9b44a107/"><img src="assets/btn-linkedin.svg" alt="Message me on LinkedIn" width="270"></a>&nbsp;&nbsp;<a href="https://github.com/aantenore/aantenore/issues/new"><img src="assets/btn-hello.svg" alt="Say hi: open an issue" width="270"></a></p>
 
-<img src="assets/climb.svg" alt="Animated scene from dusk to sunrise: two climbers roped together follow a route of holds labelled study, build, break it, document it, meet people, share the beta, ask for help and ship it, up a rock wall to a summit flag, while a dog waits at the bottom" width="860">
+<p align="center"><a href="#climb">Climb</a> · <a href="#rules">Rules</a> · <a href="#rack">Rack</a> · <a href="#wall">Wall</a> · <a href="#rope">Rope</a> · <a href="#summit">Summit</a></p>
 
-<img src="assets/terminal.svg" alt="Animated terminal: whoami, cat now.txt, deploy on Friday refused, climb check-rope, git push force-with-lease only after a backup" width="860">
+<a id="climb"></a>
+<h3 align="center">AI engineer building open-source agentic AI, one pitch at a time</h3>
 
-**AI Engineer · Software Architect · Open-source builder**
+<p align="center"><img src="assets/climb.svg" alt="Animated scene from dusk to sunrise: two climbers roped together follow a route of holds labelled study, build, break it, document it, people, share beta, get help and ship it, up a rock wall to a summit flag, while a dog waits at the bottom" width="860"></p>
 
-[LinkedIn](https://www.linkedin.com/in/antonio-antenore-a9b44a107/) · Turin, Italy
+<p align="center">I help teams turn useful AI ideas into dependable products. Best bits are pinned; the rest is in the <a href="https://github.com/aantenore?tab=repositories">repositories tab</a>.</p>
 
-AI engineer and software architect in Turin, Italy, building open-source agentic AI systems: multi-agent orchestration, MCP and A2A, local LLM runtimes, knowledge graphs and forecasting.
+<p align="center"><img src="assets/terminal.svg" alt="Animated terminal: whoami, cat now.txt, deploy on Friday refused, climb check-rope, git push force-with-lease only after a backup" width="860"></p>
 
-</div>
+<p align="center"><img src="assets/divider-1.svg" alt="Progress marker, stage 1 of 5, on a mountain ridge profile" width="860"></p>
 
-<div align="center">
+<a id="rules"></a>
+<h3 align="center">Engineering principles for AI systems</h3>
 
-<img src="assets/divider-1.svg" alt="Rope with a sliding carabiner, altitude marker 1,200 m" width="860">
-
-</div>
-
-<h3 align="center">Pitch 1 · Open-source AI agent projects</h3>
-
-<p align="center">When an idea crosses my mind, I build it, mostly to find out where it breaks. Safety goggles not included.<br>
-Each project's README says what is proven and what is still open.<br>
-The pinned repositories are what I would show first; everything else is in the <a href="https://github.com/aantenore?tab=repositories">repositories tab</a>.</p>
-
-<p align="center">Background: full-stack, microservices, distributed systems, data engineering, cloud-native and applied AI, with research in security and privacy for IoT systems.<br>
-Interests: agentic AI · multi-agent systems · MCP and A2A · local AI · distributed inference · forecasting · knowledge graphs · data platforms · event-driven architecture · cloud-native · AWS · Kafka · Python · TypeScript · Java / Spring Boot · React</p>
-
-<div align="center">
-
-<img src="assets/divider-2.svg" alt="Rope with a sliding carabiner, altitude marker 1,900 m" width="860">
-
-</div>
-
-<h3 align="center">Pitch 2 · Engineering principles</h3>
-
-<div align="center">
-
-<img src="assets/principles.svg" alt="Rock wall panel where one climber traverses and five holds light up: config over hardcoding, explicit contracts, local-first, evidence over claims, useful to people" width="860">
-
-<p align="center"><sub><i>Five holds, no sermon.</i></sub></p>
-
-</div>
+<p align="center"><img src="assets/principles.svg" alt="Rock wall where one climber traverses and five holds light up, each with an icon: configurable, contracts, local-first, evidence, useful" width="860"></p>
 
 <details>
 <summary>The principles, as text</summary>
@@ -62,56 +37,50 @@ Interests: agentic AI · multi-agent systems · MCP and A2A · local AI · distr
 
 </details>
 
-<div align="center">
+<p align="center"><img src="assets/divider-2.svg" alt="Progress marker, stage 2 of 5, on a mountain ridge profile" width="860"></p>
 
-<img src="assets/divider-3.svg" alt="Rope with a sliding carabiner, altitude marker 2,700 m" width="860">
+<a id="rack"></a>
+<h3 align="center">The rack: agentic AI, MCP and A2A, local LLMs and the stack behind them</h3>
 
-</div>
+<p align="center"><img src="assets/rack.svg" alt="A climber's gear rack of fourteen swaying carabiners labelled agentic AI, MCP and A2A, local LLMs, inference, forecasting, knowledge graphs, event-driven, cloud-native, Python, TypeScript, Java Spring Boot, AWS, Kafka and React" width="860"></p>
 
-<h3 align="center">Pitch 3 · Off the keyboard: the wall</h3>
+<details>
+<summary>The rack, as text</summary>
 
-<p align="center">Away from the keyboard: climbing (the obsession), skiing (a work in progress) and the mountain in general.<br>
-Also a dog named Sofie, who has no opinions on architecture.</p>
+<br>
 
-<div align="center">
+Interests: agentic AI, multi-agent systems, MCP and A2A, local AI, distributed inference, forecasting, knowledge graphs, data platforms, event-driven architecture, cloud native, AWS, Kafka, Python, TypeScript, Java / Spring Boot, React.
 
-<img src="assets/topo.svg" alt="Blueprint-style climbing topo of five routes with a dotted ski line, a dog napping at the base and a butterfly passing through: the prototype, the rewrite, the migration, the quick fix and your project" width="860">
+Background: full-stack, microservices, distributed systems, data engineering, cloud-native and applied AI, with research in security and privacy for IoT systems.
 
-<p align="center"><sub><i>Things I have fallen off, documented.</i></sub></p>
+</details>
 
-</div>
+<p align="center"><img src="assets/divider-3.svg" alt="Progress marker, stage 3 of 5, on a mountain ridge profile" width="860"></p>
 
-<div align="center">
+<a id="wall"></a>
+<h3 align="center">Off the keyboard: climbing, skiing and Sofie</h3>
 
-<img src="assets/divider-4.svg" alt="Rope with a sliding carabiner, altitude marker 3,800 m" width="860">
+<p align="center">Climbing (the obsession), skiing (a work in progress) and the mountain in general, with Sofie, a dog with no opinions on architecture.</p>
 
-</div>
+<p align="center"><img src="assets/topo.svg" alt="Blueprint-style climbing topo of five routes with a dotted ski line, a dog napping at the base and a butterfly passing through: prototype, rewrite, migration, quick fix and your project" width="860"></p>
 
-<h3 align="center">Pitch 4 · Collaborations and rope partners</h3>
+<p align="center"><img src="assets/divider-4.svg" alt="Progress marker, stage 4 of 5, on a mountain ridge profile" width="860"></p>
 
-<div align="center">
+<a id="rope"></a>
+<h3 align="center">Collaborations and rope partners</h3>
 
-<img src="assets/collab.svg" alt="Looking for rope partners: carabiner tags to clip in (interesting problems, half-baked ideas, brainstorming, strong opinions on local vs cloud models) and to leave at the base (synergies, needless meetings, rewriting in whatever is trending, quick calls about what a README says), with a roped pair and a third climber stepping onto the rope" width="860">
+<p align="center"><img src="assets/collab.svg" alt="Looking for rope partners: tags to clip in (hard problems, half-baked ideas, brainstorms, local vs cloud) and to leave at the base (synergies, pointless meetings, rewrite in X, quick calls), with a roped pair and a third climber stepping onto the rope" width="860"></p>
 
-<p>I am open to collaborations, idea swaps and brainstorming on interesting projects.<br>
-Write to me on <a href="https://www.linkedin.com/in/antonio-antenore-a9b44a107/">LinkedIn</a> or open a discussion or issue on any of my repositories.</p>
+<p align="center">Open to collaborations, idea swaps and brainstorming on interesting projects.<br>
+AI engineer and software architect in Turin, Italy, building open-source agentic AI systems: multi-agent orchestration, MCP and A2A, local LLM runtimes, knowledge graphs and forecasting.</p>
 
-<p>I help teams turn useful AI ideas into dependable products: private when needed, efficient in the real world, clear enough to trust. Yes, that is a lot of adjectives.</p>
+<p align="center"><img src="assets/divider-5.svg" alt="Progress marker, stage 5 of 5, on a mountain ridge profile" width="860"></p>
 
-</div>
+<a id="summit"></a>
+<h3 align="center">Summit: let's connect</h3>
 
-<div align="center">
+<p align="center"><img src="assets/summit.svg" alt="Sunrise at the summit above a sea of clouds: two climbers and their dog sit by the flag, skis planted in the snow, a skier heading down, and the words Let's rope up" width="860"></p>
 
-<img src="assets/divider-5.svg" alt="Rope with a sliding carabiner, altitude marker summit" width="860">
+<p align="center"><a href="https://www.linkedin.com/in/antonio-antenore-a9b44a107/"><img src="assets/btn-linkedin.svg" alt="Message me on LinkedIn" width="270"></a>&nbsp;&nbsp;<a href="https://github.com/aantenore/aantenore/issues/new"><img src="assets/btn-hello.svg" alt="Say hi: open an issue" width="270"></a></p>
 
-</div>
-
-<h3 align="center">Summit · Connect</h3>
-
-<div align="center">
-
-<img src="assets/summit.svg" alt="Sunrise at the summit above a sea of clouds: two climbers and their dog sit by the flag, skis planted in the snow, a skier heading down, and the words Let's rope up" width="860">
-
-<p>Reach me on <a href="https://www.linkedin.com/in/antonio-antenore-a9b44a107/">LinkedIn</a>. Well-formed bug reports get answered faster than buzzwords. Mostly.</p>
-
-</div>
+<p align="center">Well-formed bug reports get answered faster than buzzwords. Mostly.</p>
