@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 260" width="1280" height="260" role="img" aria-labelledby="t d">
+<title id="t">Antonio Antenore</title>
+<desc id="d">Banner with drifting waves over a blue to teal to violet gradient, showing the name Antonio Antenore, software architect and professional breaker of things (for science).</desc>
+<style>
+.bg{animation:bg 36s linear infinite}@keyframes bg{from{transform:translateX(0)}to{transform:translateX(-1280px)}}
+.w1{animation:w1 30s linear infinite}@keyframes w1{from{transform:translateX(0)}to{transform:translateX(-640px)}}
+.w2{animation:w2 18s linear infinite}@keyframes w2{from{transform:translateX(-640px)}to{transform:translateX(0)}}
+.name{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;font-weight:700;font-size:64px;fill:#fff}
+.sub{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;font-size:22px;fill:#c9d1d9}
+@media (prefers-reduced-motion: reduce){.bg,.w1,.w2{animation:none}}
+</style>
+<defs>
+<linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="2560" y2="0">
+<stop offset="0.0" stop-color="#0b1d3a"/><stop offset="0.125" stop-color="#0e7c86"/><stop offset="0.25" stop-color="#5b3fa0"/><stop offset="0.375" stop-color="#0e7c86"/><stop offset="0.5" stop-color="#0b1d3a"/><stop offset="0.625" stop-color="#0e7c86"/><stop offset="0.75" stop-color="#5b3fa0"/><stop offset="0.875" stop-color="#0e7c86"/><stop offset="1.0" stop-color="#0b1d3a"/>
+</linearGradient>
+</defs>
+<rect class="bg" width="2560" height="260" fill="url(#g)"/>
+<path class="w1" d="M0,150 q160,-40 320,0 t320,0 t320,0 t320,0 t320,0 t320,0 t320,0 t320,0 L2560,260 L0,260 Z" fill="#fff" fill-opacity="0.08"/>
+<path class="w2" d="M0,185 q160,-30 320,0 t320,0 t320,0 t320,0 t320,0 t320,0 t320,0 t320,0 L2560,260 L0,260 Z" fill="#fff" fill-opacity="0.06"/>
+<text class="name" x="640" y="125" text-anchor="middle">Antonio Antenore</text>
+<text class="sub" x="640" y="170" text-anchor="middle">software architect · professional breaker of things (for science)</text>
+</svg>
