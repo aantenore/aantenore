@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" role="img" aria-labelledby="t d">
 <title id="t">Antonio Antenore, AI engineer and software architect</title>
-<desc id="d">Hero banner at midnight base camp: a slow aurora and twinkling stars over three drifting mountain ridges, a climber checking gear by headlamp, a butterfly asleep on a rock, the name Antonio Antenore, AI engineer and software architect in Turin, and three chips: agentic AI, local LLMs, distributed systems.</desc>
+<desc id="d">Hero banner at midnight base camp: a slow aurora and twinkling stars over three drifting mountain ridges, a climber checking gear by headlamp, a butterfly asleep on a rock, the name Antonio Antenore, AI engineer and software architect in Turin, and three chips: distributed systems, self-resilient, config-driven.</desc>
 <defs>
 <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b1d3a"/><stop offset="1" stop-color="#10294d"/></linearGradient>
 <linearGradient id="aur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2dd4bf" stop-opacity="0"/><stop offset=".5" stop-color="#2dd4bf" stop-opacity=".4"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></linearGradient>
@@ -88,7 +88,7 @@
 <g mask="url(#nm)"><g class="sweep"><rect x="0" y="70" width="200" height="100" fill="url(#band)" opacity=".85"/></g></g>
 <g class="sweep"><g transform="translate(100,84)"><path d="M0,-9 L2,-2 L9,0 L2,2 L0,9 L-2,2 L-9,0 L-2,-2Z" fill="#f59e0b"/></g></g>
 <text class="sub sans" x="450" y="198" text-anchor="middle">AI engineer · software architect · Turin</text>
-<g><rect x="68" y="226" width="196" height="52" rx="26" fill="#0b1d3a" fill-opacity=".88" stroke="#2dd4bf" stroke-opacity="1" stroke-width="1.6"/><text class="chip mono" x="166" y="261" text-anchor="middle">Agentic AI</text></g><g><rect x="282" y="226" width="196" height="52" rx="26" fill="#0b1d3a" fill-opacity=".88" stroke="#2dd4bf" stroke-opacity=".75" stroke-width="1.6"/><text class="chip mono" x="380" y="261" text-anchor="middle">Local LLMs</text></g><g><rect x="496" y="226" width="336" height="52" rx="26" fill="#0b1d3a" fill-opacity=".88" stroke="#2dd4bf" stroke-opacity=".75" stroke-width="1.6"/><text class="chip mono" x="664" y="261" text-anchor="middle">Distributed systems</text></g>
+<g><rect x="28" y="226" width="328" height="52" rx="26" fill="#0b1d3a" fill-opacity=".88" stroke="#2dd4bf" stroke-opacity="1" stroke-width="1.6"/><text class="chip mono" x="192" y="261" text-anchor="middle">Distributed systems</text></g><g><rect x="372" y="226" width="250" height="52" rx="26" fill="#0b1d3a" fill-opacity=".88" stroke="#2dd4bf" stroke-opacity=".75" stroke-width="1.6"/><text class="chip mono" x="497" y="261" text-anchor="middle">Self-resilient</text></g><g><rect x="638" y="226" width="235" height="52" rx="26" fill="#0b1d3a" fill-opacity=".88" stroke="#2dd4bf" stroke-opacity=".75" stroke-width="1.6"/><text class="chip mono" x="755.5" y="261" text-anchor="middle">Config-driven</text></g>
 <rect width="900" height="420" fill="url(#gr)"/><rect width="900" height="420" fill="url(#vg)"/></g>
 <rect x=".5" y=".5" width="899" height="419" rx="13.5" fill="none" stroke="#1f3b66" stroke-width="1"/>
 </svg>

@@ -47,7 +47,7 @@
 <text class="mono" x="22" y="80" clip-path="url(#c1)"><tspan fill="#2dd4bf">$ </tspan><tspan fill="#e6edf3">whoami</tspan></text>
 <text class="mono o1" x="22" y="108" fill="#8aa0bf">antonio — software architect, mild chaos, keeps receipts</text>
 <text class="mono" x="22" y="136" clip-path="url(#c2)"><tspan fill="#2dd4bf">$ </tspan><tspan fill="#e6edf3">cat now.txt</tspan></text>
-<text class="mono o2" x="22" y="164" fill="#8aa0bf">agents that don't need babysitting. local models. things that break on purpose.</text>
+<text class="mono o2" x="22" y="164" fill="#8aa0bf">agents that don't need babysitting. self-healing pipelines. things that break on purpose.</text>
 <text class="mono" x="22" y="192" clip-path="url(#c3)"><tspan fill="#2dd4bf">$ </tspan><tspan fill="#e6edf3">./deploy </tspan><tspan fill="#2dd4bf">--on-friday</tspan></text>
 <text class="mono o3" x="22" y="220" fill="#f59e0b">refused: I have principles (and a weekend)</text>
 <text class="mono" x="22" y="248" clip-path="url(#c4)"><tspan fill="#2dd4bf">$ </tspan><tspan fill="#e6edf3">climb </tspan><tspan fill="#2dd4bf">--check-rope</tspan></text>
